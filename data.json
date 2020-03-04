@@ -1,0 +1,59 @@
+{"projects":[{
+  "id": 0,
+  "project_name": "dcme",
+  "description": "Data collection made easy is a web a website helps companies to manage their surveys for their products.",
+  "technologies": "Rails, Ruby, JavaScript",
+  "live_link": "wwww.dcme.today",
+  "github_link": "https://github.com/azizkemalhoscan/DCME_TRIAL",
+  "image_urls": "href falan filan"
+},
+  {
+    "id": 1,
+  "project_name": "fetch dog",
+  "description": "description of dcme",
+  "technologies": "technologies used",
+  "live_link": "wwww.bombabomba.com",
+  "github_link": "www.blabla.com",
+  "image_urls": "href falan filan"
+
+  },
+  {
+    "id": 2,
+  "project_name": "dcme",
+  "description": "description of dcme",
+  "technologies": "technologies used",
+  "live_link": "wwww.bombabomba.com",
+  "github_link": "www.blabla.com",
+  "image_urls": "href falan filan"
+
+  },
+  {
+    "id": 3,
+  "project_name": "dcme",
+  "description": "description of dcme",
+  "technologies": "technologies used",
+  "live_link": "wwww.bombabomba.com",
+  "github_link": "www.blabla.com",
+  "image_urls": "href falan filan"
+
+  },
+  {
+    "id": 4,
+  "project_name": "dcme",
+  "description": "description of dcme",
+  "technologies": "technologies used",
+  "live_link": "wwww.bombabomba.com",
+  "github_link": "www.blabla.com",
+  "image_urls": "href falan filan"
+
+  },
+  {
+    "id": 5,
+  "project_name": "dcme",
+  "description": "description of dcme",
+  "technologies": "technologies used",
+  "live_link": "wwww.bombabomba.com",
+  "github_link": "www.blabla.com",
+  "image_urls": "href falan filan"
+
+  }]
