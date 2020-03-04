@@ -1,4 +1,6 @@
 # Logs
+# Node modules added to gitignore to ignore modules when pushing product to github.
+node_modules/
 logs
 *.log
 npm-debug.log*

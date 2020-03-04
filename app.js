@@ -11,12 +11,12 @@ app.set('view engine', 'pug');
 
 // I do not understand this part thoroghly. Did we wrote this particular
 //code in order to create a fake error or is this a must part of errorhandling
-app.use((req, res, next) => {
-  console.log("Fake error");
-  const err = new Error("What da FUCK");
-  err.status = 500;
-  next(err);
-})
+// app.use((req, res, next) => {
+//   console.log("Fake error");
+//   const err = new Error("Errorrrrrr!");
+//   err.status = 500;
+//   next(err);
+// })
 // use a static route and the express.static method to serve the static files located in the public folder
 
 
