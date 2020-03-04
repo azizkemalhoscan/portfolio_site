@@ -1,0 +1,19 @@
+{
+  "name": "portfolio_site",
+  "version": "1.0.0",
+  "description": "Website to show portfolio In this specific project, I made a web site design to show my projects to possible employee's. I will both invlude my projects in treehouse and alsi le-wagon. I will type down brief information about each project and which technologies are used in them. In some of them some parts were ready to use, I will specify and thoroughly distinguish my work from ready templates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azizkemalhoscan/portfolio_site.git"
+  },
+  "author": "azizkemalhoscan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azizkemalhoscan/portfolio_site/issues"
+  },
+  "homepage": "https://github.com/azizkemalhoscan/portfolio_site#readme"
+}
