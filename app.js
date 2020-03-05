@@ -41,7 +41,7 @@ app.get('/about', function (req, res) {
 // CONSIDER THIS CODE AGAIN/ SHOULD IT BE HERE OR ALL ROUTES SHOULD BE IN A DIFFERENT FOLDER. or is it even true :)
 app.get('/projects/:id', function (req, res, next) {
   const projectId = req.params.id;
-  const project = projects.find(({id}) => id === projectId);
+  const project = projects.find(({id}) => id === +projectId);
   if(project){
     res.render('project', {project})
   } else {
