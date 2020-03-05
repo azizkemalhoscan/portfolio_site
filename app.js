@@ -2,11 +2,12 @@ const express = require('express');
 const app = express();
 
 // variable name could be changed if errors occur.
-// const data = require('data.json');
+const {projects} = require('./data.json');
 
 // Setting view engine pugs
 // app.set('views', path.join(__dirname, 'views'))
-app.use(express.static('public'));
+app.use('/static', express.static('public'));
+// app.use('/static', express.static('images'));
 app.set('view engine', 'pug');
 
 // I do not understand this part thoroghly. Did we wrote this particular
@@ -24,8 +25,10 @@ app.set('view engine', 'pug');
 
 app.get('/', function (req, res) {
 // There should be locals set here;
-  console.log("index workss")
-  res.render('index', {projects: "I am projects"});
+// I DONT KNOW HOW TO DEFINE LOCALS
+  // res.locals.projects = data.projects;
+  console.log("index workss");
+  res.render('index', {projects});
 })
 
 app.get('/about', function (req, res) {
@@ -35,20 +38,28 @@ app.get('/about', function (req, res) {
 
 // This should be a dynamic route Id needed.
 // Leave it for now.
-app.get('/projects', function (req, res) {
-  res.render('project')
+// CONSIDER THIS CODE AGAIN/ SHOULD IT BE HERE OR ALL ROUTES SHOULD BE IN A DIFFERENT FOLDER. or is it even true :)
+app.get('/projects/:id', function (req, res, next) {
+  const projectId = req.params.id;
+  const project = projects.find(({id}) => id === projectId);
+  if(project){
+    res.render('project', {project})
+  } else {
+    res.sendStatus(404);
+  }
 })
 
 app.use((req, res, next) => {
-  const err = new Error("Not found!")
+  const err = new Error("There is no such url BABE!")
   err.status = 404;
+  // console.log(err.status);
   next(err);
 })
 
 app.use('/error',(err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status);
-  res.render('error');
+  res.send('OOOOooopsy sorry an error occured');
   next(err);
 })
 

@@ -1,11 +1,13 @@
-{"projects":[{
+{
+  "projects":[
+    {
   "id": 0,
   "project_name": "dcme",
   "description": "Data collection made easy is a web a website helps companies to manage their surveys for their products.",
   "technologies": "Rails, Ruby, JavaScript",
   "live_link": "wwww.dcme.today",
   "github_link": "https://github.com/azizkemalhoscan/DCME_TRIAL",
-  "image_urls": "href falan filan"
+  "image_urls": ["/static/images/DCME1.png","/static/images/DCME2.png","/static/images/DCME3.png","/static/images/DCME4.png"]
 },
   {
     "id": 1,
@@ -14,46 +16,47 @@
   "technologies": "technologies used",
   "live_link": "wwww.bombabomba.com",
   "github_link": "www.blabla.com",
-  "image_urls": "href falan filan"
-
+  "image_urls": ["/static/images/fetch_dog1.png", "/static/images/fetch_dog2.png"]
   },
   {
     "id": 2,
-  "project_name": "dcme",
+  "project_name": "phrase hunter",
   "description": "description of dcme",
   "technologies": "technologies used",
   "live_link": "wwww.bombabomba.com",
   "github_link": "www.blabla.com",
-  "image_urls": "href falan filan"
+  "image_urls": ["/static/images/phrase_hunter1.png","/static/images/phrase_hunter2.png",]
 
   },
   {
     "id": 3,
-  "project_name": "dcme",
+  "project_name": "pagination list",
   "description": "description of dcme",
   "technologies": "technologies used",
   "live_link": "wwww.bombabomba.com",
   "github_link": "www.blabla.com",
-  "image_urls": "href falan filan"
+  "image_urls": ["/static/images/list_of_pagination1.png","/static/images/list_of_pagination2.png"]
 
   },
   {
     "id": 4,
-  "project_name": "dcme",
+  "project_name": "public api request",
   "description": "description of dcme",
   "technologies": "technologies used",
   "live_link": "wwww.bombabomba.com",
   "github_link": "www.blabla.com",
-  "image_urls": "href falan filan"
+  "image_urls": ["/static/images/public_api_request1.png","/static/images/public_api_request2.png"]
 
   },
   {
     "id": 5,
-  "project_name": "dcme",
+  "project_name": "random quote generator",
   "description": "description of dcme",
   "technologies": "technologies used",
   "live_link": "wwww.bombabomba.com",
   "github_link": "www.blabla.com",
-  "image_urls": "href falan filan"
+  "image_urls": ["/static/images/random_quote_generator1.png","/static/images/random_quote_generator2.png"]
 
-  }]
+  }
+ ]
+}
