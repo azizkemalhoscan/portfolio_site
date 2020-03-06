@@ -7,7 +7,7 @@
   "technologies": ["Rails", "Ruby", "JavaScript", "HMTL", "CSS"],
   "live_link": "wwww.dcme.today",
   "github_link": "https://github.com/azizkemalhoscan/DCME_TRIAL",
-  "image_urls": ["/static/images/DCME1.png","/static/images/DCME2.png","/static/images/DCME3.png","/static/images/DCME4.png"]
+  "image_urls": [["/static/images/DCME1_index.png"], ["/static/images/DCME1.png","/static/images/DCME2.png","/static/images/DCME3.png","/static/images/DCME4.png"]]
 },
   {
     "id": 1,
@@ -16,7 +16,7 @@
   "technologies": ["HTML", "CSS", "JavaScript"],
   "live_link": "https://azizkemalhoscan.github.io/fetch_dog_api/",
   "github_link": "https://github.com/azizkemalhoscan/fetch_dog_api",
-  "image_urls": ["/static/images/fetch_dog1.png", "/static/images/fetch_dog2.png"]
+  "image_urls": [["/static/images/fetch_dog_index.png"], ["/static/images/fetch_dog1.png", "/static/images/fetch_dog2.png"]]
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
   "technologies": ["HTML", "CSS", "JavaScript"],
   "live_link": "https://azizkemalhoscan.github.io/oop_game_show_app/",
   "github_link": "https://github.com/azizkemalhoscan/oop_game_show_app",
-  "image_urls": ["/static/images/phrase_hunter1.png","/static/images/phrase_hunter2.png"]
+  "image_urls": [["/static/images/phrase_hunter_index.png"], ["/static/images/phrase_hunter1.png","/static/images/phrase_hunter2.png"]]
 
   },
   {
@@ -35,7 +35,7 @@
   "technologies": ["HTML", "CSS", "JavaScript"],
   "live_link": "wwww.bombabomba.com",
   "github_link": "https://github.com/azizkemalhoscan/list_pagination_filtering_project",
-  "image_urls": ["/static/images/list_of_pagination1.png","/static/images/list_of_pagination2.png"]
+  "image_urls": [["/static/images/list_of_pagination_index.png"], ["/static/images/list_of_pagination1.png","/static/images/list_of_pagination2.png"]]
 
   },
   {
@@ -45,7 +45,7 @@
   "technologies": ["Rails", "Ruby", "JavaScript"],
   "live_link": "https://azizkemalhoscan.github.io/Public-Api-Requests/",
   "github_link": "https://github.com/azizkemalhoscan/Public-Api-Requests",
-  "image_urls": ["/static/images/public_api_request1.png","/static/images/public_api_request2.png"]
+  "image_urls": [["/static/images/public_api_request_index.png"], ["/static/images/public_api_request1.png","/static/images/public_api_request2.png"]]
 
   },
   {
@@ -55,7 +55,7 @@
   "technologies": ["HTML", "CSS", "JavaScript"],
   "live_link": "https://azizkemalhoscan.github.io/random_quote_generator/",
   "github_link": "https://github.com/azizkemalhoscan/random_quote_generator",
-  "image_urls": ["/static/images/random_quote_generator1.png","/static/images/random_quote_generator2.png"]
+  "image_urls": [["/static/images/random_quote_generator_index.png"], ["/static/images/random_quote_generator1.png","/static/images/random_quote_generator2.png"]]
   },
   {
     "id": 6,
@@ -64,7 +64,7 @@
   "technologies": ["HTML", "CSS", "JavaScript"],
   "live_link": "https://azizkemalhoscan.github.io/interactive_form/",
   "github_link": "https://github.com/azizkemalhoscan/interactive_form",
-  "image_urls": ["/static/images/form_project1.png","/static/images/form_project2.png"]
+  "image_urls": [["/static/images/form_project_index.png"], ["/static/images/form_project1.png","/static/images/form_project2.png"]]
   }
  ]
 }

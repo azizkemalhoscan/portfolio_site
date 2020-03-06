@@ -25,6 +25,6 @@ block content
         a.button.expanded(href=`${project.live_link}`).setAttribute('target', '_blank') Live Demo
         a.button.expanded(href=`${project.live_link}`) GitHub Repo
 
-    each photo in project.image_urls
+    each photo in project.image_urls[1]
       img.image(src=`${photo}`)
-//-Add target="_blank"
+
