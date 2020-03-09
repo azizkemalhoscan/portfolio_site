@@ -108,6 +108,8 @@ a:hover{
 }
 
 .portfolio-index{
+  /*I added this display property*/
+  display: block;
   margin: 0;
   padding: 10px 50px;
 }

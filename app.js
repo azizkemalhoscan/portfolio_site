@@ -62,6 +62,7 @@ app.use((err, req, res, next) => {
 app.use((req, res, next) => {
   const err = new Error("There is no such url BABE!")
   res.locals.error = err;
+  console.log(err);
   err.status = 404;
   res.render('error')
   // console.log(err.status);
