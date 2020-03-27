@@ -8,7 +8,7 @@
   "live_link": "wwww.dcme.today",
   "github_link": "https://github.com/azizkemalhoscan/DCME_TRIAL",
   "image_urls": [["/static/images/DCME1_index.png"], ["/static/images/DCME1.png","/static/images/DCME2.png","/static/images/DCME3.png","/static/images/DCME4.png"]]
-},
+  },
   {
     "id": 1,
   "project_name": "fetch dog",
@@ -29,14 +29,13 @@
 
   },
   {
-    "id": 3,
-  "project_name": "pagination",
-  "description": "In this project, I used a common web development technique known as 'pagination' to enhance the usability of a web page.",
+    "id": 6,
+  "project_name": "interactive form",
+  "description": "In this project, I used JavaScript to enhance an interactive registration form for a fictional conference called FullStack Conf.",
   "technologies": ["HTML", "CSS", "JavaScript"],
-  "live_link": "wwww.bombabomba.com",
-  "github_link": "https://github.com/azizkemalhoscan/list_pagination_filtering_project",
-  "image_urls": [["/static/images/list_of_pagination_index.png"], ["/static/images/list_of_pagination1.png","/static/images/list_of_pagination2.png"]]
-
+  "live_link": "https://azizkemalhoscan.github.io/interactive_form/",
+  "github_link": "https://github.com/azizkemalhoscan/interactive_form",
+  "image_urls": [["/static/images/form_project_index.png"], ["/static/images/form_project1.png","/static/images/form_project2.png"]]
   },
   {
     "id": 4,
@@ -57,14 +56,24 @@
   "github_link": "https://github.com/azizkemalhoscan/random_quote_generator",
   "image_urls": [["/static/images/random_quote_generator_index.png"], ["/static/images/random_quote_generator1.png","/static/images/random_quote_generator2.png"]]
   },
-  {
-    "id": 6,
-  "project_name": "interactive form",
-  "description": "In this project, I used JavaScript to enhance an interactive registration form for a fictional conference called FullStack Conf.",
+    {
+    "id": 3,
+  "project_name": "pagination",
+  "description": "In this project, I used a common web development technique known as 'pagination' to enhance the usability of a web page.",
   "technologies": ["HTML", "CSS", "JavaScript"],
-  "live_link": "https://azizkemalhoscan.github.io/interactive_form/",
-  "github_link": "https://github.com/azizkemalhoscan/interactive_form",
-  "image_urls": [["/static/images/form_project_index.png"], ["/static/images/form_project1.png","/static/images/form_project2.png"]]
+  "live_link": "wwww.bombabomba.com",
+  "github_link": "https://github.com/azizkemalhoscan/list_pagination_filtering_project",
+  "image_urls": [["/static/images/list_of_pagination1.png"], ["/static/images/list_of_pagination1.png","/static/images/list_of_pagination2.png"]]
+
+  },
+    {
+  "id": 7,
+  "project_name": "react gallery app",
+  "description": "This is a gallery application. It gives you maximum 24 photos regarding your query. In this particular project I practiced react, react routes, fetch API.",
+  "technologies": ["React", "JavaScript", "HMTL", "git"],
+  "live_link": "https://azizkemalhoscan.github.io/react-gallery-app/",
+  "github_link": "https://github.com/azizkemalhoscan/portfolio_site",
+  "image_urls": [["/static/images/react-gallery-app1.png"], ["/static/images/react-gallery-app2.png","/static/images/react-gallery-app3.png"]]
   }
  ]
 }
