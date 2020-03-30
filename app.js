@@ -69,9 +69,13 @@ app.use((req, res, next) => {
   next(err);
 })
 
-
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 5000;
+}
+app.listen(port);
 
 // This is for defining where to run this page on local server. It is set to 3000.
-app.listen(3000, () => {
-  console.log("App is listening port 3000");
-});
+// app.listen(3000, () => {
+//   console.log("App is listening port 3000");
+// });
