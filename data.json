@@ -81,7 +81,7 @@
   "technologies": ["HTML", "CSS", "JavaScript"],
   "live_link": "wwww.bombabomba.com",
   "github_link": "https://github.com/azizkemalhoscan/list_pagination_filtering_project",
-  "image_urls": [["/static/images/listPaginationIndex.png"], ["/static/images/list_of_pagination1.png","/static/images/list_of_pagination2.png"]]
+  "image_urls": [["/static/images/listPaginationIndex.png"], ["/static/images/list_of_pagination2.png"]]
 
   }
  ]
