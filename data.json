@@ -5,7 +5,7 @@
   "project_name": "Full Stack React App",
   "description": "In my final project, I used React to create a client for an existing school database REST API (that I created in a previous project). The full-stack application will provide a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific class, as well as creating, updating and deleting courses in the database.In addition, the project will require users to create an account and sign in to make changes to the database. Implementing these features will push pushed React skills to new heights.To complete this project, I'll use my knowledge of React, JSX, React Router, React Context API, and Create React App.",
   "technologies": ["React", "Express", "JavaScript","HMTL", "CSS", "JSX", "Context Api", "RESTapi"],
-  "live_link": "wwww.dcme.today",
+  "live_link": "https://github.com/azizkemalhoscan/full-stack-react-app",
   "github_link": "https://github.com/azizkemalhoscan/full-stack-react-app",
   "image_urls": [["/static/images/fullStackAppIndex.png"], ["/static/images/full_stack_react_app1.png","/static/images/full_stack_react_app2.png", "/static/images/full_stack_react_app3.png", "/static/images/full_stack_react_app4.png", "/static/images/full_stack_react_app5.png"]]
   },
@@ -14,7 +14,7 @@
   "project_name": "dcme.today",
   "description": "Data collection made easy is a web a website helps companies to manage their surveys for their products. We have developed DCME with Susanna Jacob and Nicholas Demils as our final project for Le-Wagoon 9 weeks of coding bootcamp.",
   "technologies": ["Rails", "Ruby", "JavaScript", "HMTL", "CSS"],
-  "live_link": "wwww.dcme.today",
+  "live_link": "https://github.com/azizkemalhoscan/DCME_TRIAL",
   "github_link": "https://github.com/azizkemalhoscan/DCME_TRIAL",
   "image_urls": [["/static/images/dcmeTodayIndex.png"], ["/static/images/DCME1.png","/static/images/DCME2.png","/static/images/DCME3.png","/static/images/DCME4.png"]]
   },
